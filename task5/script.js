@@ -1,6 +1,6 @@
-let name = prompt("Adıvızı daxil edin:");
-let surname = prompt("Soyadıvızı daxil edin:");
-let username = prompt("Istifadeci adıvızı girin");
+let name = prompt("Adınızı daxil edin:");
+let surname = prompt("Soyadınızı daxil edin:");
+let username = prompt("Istifadeci adınızı girin");
 
 let infoPlace = document.body;
 infoPlace.innerHTML += "Ad: " + name + "<br>";

@@ -1,17 +1,19 @@
-let body = document.querySelector("body");
-document.querySelector("#gray").addEventListener("click", function () {
-  body.style.backgroundColor = "gray";
+let btn = document.querySelector("body");
+document.querySelector(".first").addEventListener("click", function () {
+  btn.style.backgroundColor = "gray";
 });
 
-document.querySelector("#red").addEventListener("click", function () {
-  body.style.backgroundColor = "red";
+let btn2 = document.querySelector("body");
+document.querySelector(".second").addEventListener("click", function () {
+  btn2.style.backgroundColor = "red";
 });
 
-document.querySelector("#blue").addEventListener("click", function () {
-  body.style.backgroundColor = "blue";
+let btn3 = document.querySelector("body");
+document.querySelector(".third").addEventListener("click", function () {
+  btn3.style.backgroundColor = "blue";
 });
 
-document.querySelector("#yellow").addEventListener("click", function () {
-  body.style.backgroundColor = "red";
+let btn4 = document.querySelector("body");
+document.querySelector(".last").addEventListener("click", function () {
+  btn4.style.backgroundColor = "yellow";
 });
-alert("sisteme xos geldiniz");
